@@ -1,0 +1,62 @@
+body{
+  margin:0px;
+  padding:0xp;
+}
+*{
+  font-family:tahoma,helvetica,arial;
+}
+.title{
+  padding:5px;
+  float:left;
+  font-size:20px;
+}
+#wrapper{
+  margin:10px;
+  background: #ffffff; /* old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%); /* firefox */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#f3f3f3), color-stop(51%,#ededed), color-stop(100%,#ffffff)); /* webkit */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* ie */
+  float:left;
+  border:1px solid #777;
+  border-radius:6px;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  padding:5px;
+}
+.field{
+  margin:5px;
+  float:left;
+  clear:both;
+}
+.field label{
+  float:left;
+  padding:3px;
+}
+.field input,
+.field select,
+.field textarea{
+  clear:both;
+  float:left;
+  font-size:20px;
+  padding:3px;
+  margin:0px;
+  border:1px solid #777;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+}
+.field input{
+  width:300px;
+}
+.field select{
+  width:310px;
+}
+.field textarea{
+  width:300px;
+}
+.field button{
+  margin:0px;
+  width:150px;
+  font-size:20px;
+  padding:5px;
+}
